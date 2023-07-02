@@ -1,0 +1,20 @@
+learning Git and Github.com
+
+git config --global user.name "username"
+git config --global user.email "email"
+
+
+git status (to check the tracked and untracked file)
+
+
+for new Project 
+git init (git ko initialize kerdyga project Folder mein)
+git add -A / git add . / git add filename (e.g --> git add class1.dart)
+git commit -m "message"
+git remote add origin RepoLink
+git push -u origin master 
+
+for project Update 
+git commit -m "message"
+git add -A / git add .
+git push
